@@ -107,6 +107,9 @@
       </div>
 
       <div class="featured-stories">
+        <div class="block-title">
+          FEATURED STORIES
+        </div>
 
         <article>
           <div class="wrap">
@@ -234,49 +237,62 @@
 
       <div class="debate-cont">
         <div class="block-title">THE DEBATE</div>
+
         <div class="player1">
-          <div class="img rounded-circle">
-            <a href="#">
-              <picture>
-                <img
-                  src="https://d.newsweek.com/en/full/1641374/robert-p-george.webp?w=150&h=150&f=365b9cdc1ef783cc2559d38ccbf310b9"
-                  alt="Robert">
-              </picture>
-            </a>
-          </div>
-          <div class="title">
-            <a href="#">The Case for Amy Coney Barrett</a>
-          </div>
-          <div class="by-who">
-            <span>BY</span> ROBERT P. GEORGE
+          <div class="d-flex align-items-center">
+            <div class="img rounded-circle">
+              <a href="#">
+                <picture>
+                  <img
+                    src="https://d.newsweek.com/en/full/1641374/robert-p-george.webp?w=150&h=150&f=365b9cdc1ef783cc2559d38ccbf310b9"
+                    alt="Robert">
+                </picture>
+              </a>
+            </div>
+            <div class="info">
+              <div class="title">
+                <a href="#">The Case for Amy Coney Barrett</a>
+              </div>
+              <div class="by-who">
+                <span>BY</span> ROBERT P. GEORGE
+              </div>
+            </div>
           </div>
         </div>
-
-        <div class="decoration">VS</div>
-
+        <div class="vs-wrap">
+          <hr class="hr1">
+          <div class="decoration rounded-circle">VS</div>
+          <hr class="hr2">
+        </div>
         <div class="player2">
-          <div class="img rounded-circle">
-            <a href="#">
-              <picture>
-                <img
-                  src="https://d.newsweek.com/en/full/1523500/bridget-kelly.webp?w=150&h=150&f=b8865c559bb1db754f728fb108343548"
-                  alt="Bridget">
-              </picture>
-            </a>
-          </div>
-          <div class="title">
-            <a href="#">Replacing RBG with a Woman like Barrett Is Beyond Tokenism. It's an Affront</a>
-          </div>
-          <div class="by-who">
-            <span>BY</span> BRIDGET KELLY
+          <div class="d-flex align-items-center">
+            <div class="img rounded-circle order-2">
+              <a href="#">
+                <picture>
+                  <img
+                    src="https://d.newsweek.com/en/full/1523500/bridget-kelly.webp?w=150&h=150&f=b8865c559bb1db754f728fb108343548"
+                    alt="Bridget">
+                </picture>
+              </a>
+            </div>
+            <div class="info order-1">
+              <div class="title">
+                <a href="#">Replacing RBG with a Woman like Barrett Is Beyond Tokenism. It's an Affront</a>
+              </div>
+              <div class="by-who">
+                <span>BY</span> BRIDGET KELLY
+              </div>
+            </div>
           </div>
         </div>
       </div>
 
       <div class="opinion-cont">
+        <div class="block-title">OPINION</div>
+
         <ul>
 
-          <li>
+          <li class="d-flex">
             <div class="img rounded-circle">
               <a href="#">
                 <picture>
@@ -292,7 +308,7 @@
             </div>
           </li>
 
-          <li>
+          <li class="d-flex">
             <div class="img rounded-circle">
               <a href="#">
                 <picture>
@@ -308,7 +324,7 @@
             </div>
           </li>
 
-          <li>
+          <li class="d-flex">
             <div class="img rounded-circle">
               <a href="#">
                 <picture>
@@ -324,7 +340,7 @@
             </div>
           </li>
 
-          <li>
+          <li class="d-flex">
             <div class="img rounded-circle">
               <a href="#">
                 <picture>
@@ -340,7 +356,7 @@
             </div>
           </li>
 
-          <li>
+          <li class="d-flex">
             <div class="img rounded-circle">
               <a href="#">
                 <picture>
@@ -356,7 +372,7 @@
             </div>
           </li>
 
-          <li>
+          <li class="d-flex">
             <div class="img rounded-circle">
               <a href="#">
                 <picture>
@@ -372,7 +388,7 @@
             </div>
           </li>
 
-          <li>
+          <li class="d-flex">
             <div class="img rounded-circle">
               <a href="#">
                 <picture>
@@ -388,7 +404,7 @@
             </div>
           </li>
 
-          <li>
+          <li class="d-flex">
             <div class="img rounded-circle">
               <a href="#">
                 <picture>
@@ -400,8 +416,8 @@
             </div>
             <div class="info">
               <a href="#">What the United Nations Gets Wrong About Fighting Anti-Semitism</a>
-              <div class="by-who">BY EMILIE KAO AND JOEL GRIFFITH/div>
-              </div>
+              <div class="by-who">BY EMILIE KAO AND JOEL GRIFFITH</div>
+            </div>
           </li>
 
         </ul>
@@ -694,7 +710,7 @@
           </div>
         </div>
 
-        <div class="culture-n-travel-cont">
+        <div class="cnt-cont">
           <div class="block-title">CULTURE & TRAVEL</div>
           <div class="cnt-1">
             <div class="wrap">
@@ -761,12 +777,12 @@
       <div class="newsletter">
         <div class="newsletter-form">
           <div class="n-title">
-            <span class="icon-n"></span>
+            <img class="icon-n" src="https://g.newsweek.com/themes/newsweek/favicons/apple-touch-icon.png" alt="icon">
             START YOUR DAY WITH OUR TOP 5 ARTICLES
           </div>
           <form action="#">
-            <input type="email" placeholder="Email Address">
-            <button class="sign-up" type="submit">FREE SIGN UP <svg width="1em" height="1em" viewBox="2 2 16 16"
+            <input class="signup-email"type="email" placeholder="Email Address">
+            <button class="signup-btn" type="submit">FREE SIGN UP <svg width="1em" height="1em" viewBox="2 2 16 16"
                 class="bi bi-chevron-right" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                 <path fill-rule="evenodd"
                   d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
