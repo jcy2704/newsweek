@@ -135,3 +135,16 @@ header {
   line-height: 24px;
 }
 
+/*FEATURED STORIES*/
+.featured-stories,
+.debate-cont,
+.opinion-cont,
+.more-stories,
+.culture-cont {
+  padding-top: 30px;
+}
+
+.featured-stories article {
+  padding-bottom: 20px;
+}
+
