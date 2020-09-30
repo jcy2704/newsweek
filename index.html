@@ -16,31 +16,12 @@
   <title>Newsweek</title>
 </head>
 
-<body class="container-fluid">
-  <header class="container-fluid">
-    <div class="container">
-      <!--Top Header-->
-      <div class="top-header white d-flex justify-content-between align-items-end">
-        <div class="width-50 weather">
-          <div>
-            <p><a href="#">27 Panama, PA</a></p>
-            <date>Tue, Sept 29, 2020</date>
-          </div>
-        </div>
+<body>
+  <header>
+    <nav>
 
-        <div class=" d-flex width-50 buttons align-items-center justify-content-end">
-          <button class="lgn-btn white" type="button">
-            LOGIN
-          </button>
-          <button class="rounded-pill sub-btn" type="button">
-            SUBSCRIBE >
-          </button>
-        </div>
-      </div>
-
-      <!--Mid Header with Logo-->
-      <div class="mid-header">
-        <a class="logo" href="#">
+      <div class="logo-cont">
+        <a href="#">
           <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
             x="0px" y="0px" viewBox="0 0 395.6 60" style="enable-background:new 0 0 395.6 60;" xml:space="preserve">
             <g>
@@ -52,820 +33,355 @@
         </a>
       </div>
 
-      <!--Navbar Menu-->
-      <nav class="bot-header">
-        <div>
-          <ul>
-            <li>
-              <a href="#">
-                U.S.
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                World
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                Business
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                Tech & Science
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                Culture
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                Newsgeek
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                Sports
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                Health
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                The Debate
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                Vantage
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                Weather
-              </a>
-            </li>
-          </ul>
-          <form>
-            <input class="search" type="search" placeholder="Search">
-          </form>
+      <div class="menu">
+        <div class="profile">
+          <a href="#">
+            <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-person-fill" fill="currentColor"
+              xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd"
+                d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
+            </svg>
+          </a>
         </div>
-        <!--Trending Topics-->
-        <div class="trending-wrapper">
-          <ul class="trending">
-            <li>
-              <a href="#">
-                Trending
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                Donald Trump
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                Joe Biden
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                China
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                Coronavirus
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                2020 Election
-              </a>
-            </li>
-          </ul>
+
+        <div class="subscribe">
+          <button class="sub-btn rounded-pill" type="button">SUBSCRIBE <svg width="1em" height="1em" viewBox="2 2 16 16"
+              class="bi bi-chevron-right" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd"
+                d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
+            </svg>
+          </button>
         </div>
-      </nav>
-    </div>
+
+        <div class="ham-menu">
+          <a href="#">
+            <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-justify" fill="currentColor"
+              xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd"
+                d="M2 10.5a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5z" />
+            </svg>
+          </a>
+        </div>
+      </div>
+
+    </nav>
   </header>
 
-  <main class="container-fluid">
-    <div class="col-wrapper row">
+  <main class="main">
+    <div class="top-story">
 
-      <div class="col ft-stories">
-        <div class="sticky-top">
-          <div class="col-title">FEATURED STORIES</div>
-          <article>
-            <div class="art-wrapper">
-              <div class="category">
-                <div>
-                  <a href="#">
-                    WORLD
-                  </a>
-                </div>
-              </div>
-              <div class="img">
-                <a href="#">
-                  <picture>
-                    <img
-                      src="https://d.newsweek.com/en/full/1643061/kuwait-emir-sabah-parliament.jpg?w=397&h=265&q=90&f=a39f38467cff6eda3aaaa5fc3f1dd2a8"
-                      alt="kuwait emir">
-                  </picture>
-                </a>
-              </div>
-            </div>
-            <h3>
-              Kuwait's Emir Sabah Dies As Region Divided Over Israel, Iran, Other Crises
-            </h3>
-            <div class="summary">
-              Sheikh Sabah al-Ahmed al-Sabah, Emir of Kuwait, has died at the age of 91, according to state-run media
-              reports.
-            </div>
-          </article>
+      <div class="block-title">
+        TOP STORY
+      </div>
 
-          <article>
-            <div class="art-wrapper">
-              <div class="category">
-                <div>
-                  <a href="#">
-                    WORLD
-                  </a>
-                </div>
-              </div>
-              <div class="img">
-                <a href="#">
-                  <picture>
-                    <img
-                      src="https://d.newsweek.com/en/full/1643329/armenia-artillery-azerbaijan-nagorno-karabakh.webp?w=397&h=265&q=90&f=cff73d3be112c0979934e21e6322a6da"
-                      alt="Armenia artillery">
-                  </picture>
-                </a>
-              </div>
-            </div>
-            <h3>
-              As Armenia, Azerbaijan Fight, Here's Where U.S., Russia, Turkey, Iran Stand
-            </h3>
-            <div class="summary">
-              On Tuesday, both Turkey and Iran reportedly found themselves directly involved in the battle, while the
-              U.S. and Russia remained closely engaged, calling for an immediate de-escalation.
-            </div>
-          </article>
+      <article>
+        <div class="img">
+          <a href="#">
+            <picture>
+              <img
+                src="https://d.newsweek.com/en/full/1643687/first-presidential-debate.webp?w=591&h=364&f=bf1c13645014d799d15d7816fd2973ce"
+                alt="presidential debate">
+            </picture>
+          </a>
+        </div>
+        <div class="category">
+          <a href="#">OPINION</a>
+        </div>
+        <h1 class="headline">
+          <a href="#">Live Updates: Trump and Biden Meet for First Presidential Debate</a>
+        </h1>
+        <div class="info">
+          Newsweek columnists and guests weigh in on the candidates' performances.
+        </div>
+      </article>
 
-          <article>
-            <div class="art-wrapper">
-              <div class="category">
-                <div>
-                  <a href="#">
-                    U.S.
-                  </a>
-                </div>
-              </div>
-              <div class="img">
-                <a href="#">
-                  <picture>
-                    <img
-                      src="https://d.newsweek.com/en/full/1643326/joe-biden.webp?w=397&h=265&q=90&f=dfb4ad32f8c294ac9290b16bca700c0a"
-                      alt="Biden">
-                  </picture>
-                </a>
-              </div>
-            </div>
-            <h3>
-              Biden Paid $299,000 in Federal Taxes, Received $47,000 Refund in 2019
-            </h3>
-            <div class="summary">
-              Biden and his running mate, Kamala Harris, released their 2019 returns ahead of Tuesday's presidential
-              debate.
-            </div>
-          </article>
+    </div>
 
-          <article>
-            <div class="art-wrapper">
-              <div class="category">
-                <div>
-                  <a href="#">
-                    NEWS
-                  </a>
-                </div>
-              </div>
-              <div class="img">
-                <a href="#">
-                  <picture>
-                    <img
-                      src="https://d.newsweek.com/en/full/1643304/hunter-biden.webp?w=397&h=265&q=90&f=e1f15046d76929a82b7f495fbdf09c97"
-                      alt="hunter biden">
-                  </picture>
-                </a>
-              </div>
-            </div>
-            <h3>
-              Trump Campaign Demands Answers on Hunter Biden's $3.5 Million Wire Transfer
-            </h3>
-            <div class="summary">
-              In a list of 17 questions the Trump campaign wants Democratic nominee Joe Biden to answer in Tuesday's
-              debate, their first targets Biden's son Hunter's previous financial transactions.
-            </div>
-          </article>
+    <div class="featured-stories">
 
-          <article>
-            <div class="art-wrapper">
-              <div class="category">
-                <div>
-                  <a href="#">
-                    U.S.
-                  </a>
-                </div>
-              </div>
-              <div class="img">
-                <a href="#">
-                  <picture>
-                    <img
-                      src="https://d.newsweek.com/en/full/1643323/amy-coney-barrett-nomination-ceremony.webp?w=397&h=265&q=90&f=d351db42ec5cecfe61d6bacfcfe6ad05"
-                      alt="amy coney">
-                  </picture>
-                </a>
-              </div>
-            </div>
-            <h3>
-              Amy Coney Barrett's Nomination Energizes Democratic Women's Groups
-            </h3>
-            <div class="summary">
-              "This is something that people are willing to get in the streets and fight for," said Rachel O'Leary
-              Carmona, executive director of Women's March.
-            </div>
-          </article>
+      <article>
+        <div class="img">
+          <a href="#">
+            <picture>
+              <img
+                src="https://d.newsweek.com/en/full/1643329/armenia-artillery-azerbaijan-nagorno-karabakh.webp?w=466&h=311&q=90&f=e3bc8391bcd6ce1496033f0a9c71fcfd"
+                alt="war">
+            </picture>
+          </a>
+        </div>
+        <div class="category">
+          <a href="#">WORLD</a>
+        </div>
+        <h1 class="headline">
+          <a href="#">As Armenia, Azerbaijan Fight, Here's Where U.S., Russia, Turkey, Iran Stand</a>
+        </h1>
+        <div class="info">
+          On Tuesday, both Turkey and Iran reportedly found themselves directly involved in the battle, while the U.S.
+          and Russia remained closely engaged, calling for an immediate de-escalation.
+        </div>
+      </article>
+
+      <article>
+        <div class="img">
+          <a href="#">
+            <picture>
+              <img
+                src="https://d.newsweek.com/en/full/1643326/joe-biden.webp?w=466&h=311&q=90&f=28f2a34b8758392f4dfb14073c44a98c"
+                alt="joe biden">
+            </picture>
+          </a>
+        </div>
+        <div class="category">
+          <a href="#">U.S.</a>
+        </div>
+        <h1 class="headline">
+          <a href="#">Biden Paid $299,000 in Federal Taxes, Received $47,000 Refund in 2019</a>
+        </h1>
+        <div class="info">
+          Biden and his running mate, Kamala Harris, released their 2019 returns ahead of Tuesday's presidential debate.
+        </div>
+      </article>
+
+      <article>
+        <div class="img">
+          <a href="#">
+            <picture>
+              <img
+                src="https://d.newsweek.com/en/full/1643304/hunter-biden.webp?w=466&h=311&q=90&f=725057dc5110fc9bd59ad6533b9c1cf9"
+                alt="campaign">
+            </picture>
+          </a>
+        </div>
+        <div class="category">
+          <a href="#">NEWS</a>
+        </div>
+        <h1 class="headline">
+          <a href="#">Trump Campaign Demands Answers on Hunter Biden's $3.5 Million Wire Transfer</a>
+        </h1>
+        <div class="info">
+          In a list of 17 questions the Trump campaign wants Democratic nominee Joe Biden to answer in Tuesday's debate,
+          their first targets Biden's son Hunter's previous financial transactions.
+        </div>
+      </article>
+
+      <article>
+        <div class="img">
+          <a href="#">
+            <picture>
+              <img
+                src="https://d.newsweek.com/en/full/1643323/amy-coney-barrett-nomination-ceremony.webp?w=466&h=311&q=90&f=66866c870d450a196a6d65dccc101530"
+                alt="amy coney">
+            </picture>
+          </a>
+        </div>
+        <div class="category">
+          <a href="#">U.S.</a>
+        </div>
+        <h1 class="headline">
+          <a href="#">Amy Coney Barrett's Nomination Energizes Democratic Women's Groups </a>
+        </h1>
+        <div class="info">
+          "This is something that people are willing to get in the streets and fight for," said Rachel O'Leary Carmona,
+          executive director of Women's March.
+        </div>
+      </article>
+
+      <article>
+        <div class="img">
+          <a href="#">
+            <picture>
+              <img
+                src="https://d.newsweek.com/en/full/1642989/roman-catholic-cardinal-raymond-burke.webp?w=466&h=311&q=90&f=e84ba31c8e2a9376d876c1fed4cdaeb9"
+                alt="cardinal">
+            </picture>
+          </a>
+        </div>
+        <div class="category">
+          <a href="#">NEWS</a>
+        </div>
+        <h1 class="headline">
+          <a href="#">Catholic Cardinal Says Pro-Choice Joe Biden Shouldn't Receive Communion</a>
+        </h1>
+        <div class="info">
+          A conservative Roman Catholic cardinal says Democratic presidential nominee Joe Biden should not receive Holy
+          Communion during Sunday Masses because his views on abortion are at sharp odds with Vatican teaching.
+        </div>
+      </article>
+    </div>
+
+    <div class="debate-cont">
+      <div class="block-title">THE DEBATE</div>
+      <div class="player1">
+        <div class="img rounded-circle">
+          <a href="#">
+            <picture>
+              <img
+                src="https://d.newsweek.com/en/full/1641374/robert-p-george.webp?w=150&h=150&f=365b9cdc1ef783cc2559d38ccbf310b9"
+                alt="Robert">
+            </picture>
+          </a>
+        </div>
+        <div class="title">
+          <a href="#">The Case for Amy Coney Barrett</a>
+        </div>
+        <div class="by-who">
+          <span>BY</span> ROBERT P. GEORGE
         </div>
       </div>
 
-      <div class="col-6 top-stories">
-        <div class="sticky-top">
-          <div class="d-sm-flex flex-column">
-            <div class="article-cont">
-              <div class="col-title">TOP STORIES</div>
-              <article>
-                <div class="art-wrapper">
-                  <div class="category">
-                    <div>
-                      <a href="#">
-                        TECH & SCIENCE
-                      </a>
-                    </div>
-                  </div>
-                  <div class="img">
-                    <a href="#">
-                      <picture>
-                        <img
-                          src="https://d.newsweek.com/en/full/1643067/joe-biden.webp?w=591&h=364&f=1c112c3eaa6ba477acdda8538a95196c"
-                          alt="joe biden">
-                      </picture>
-                    </a>
-                  </div>
-                </div>
-                <h3>
-                  Biden Campaign Blasts Facebook As 'Foremost Propagator' of Voting Lies
-                </h3>
-                <div class="summary">
-                  "No company that considered itself a force for good in democracy... would allow this dangerous
-                  claptrap
-                  to
-                  be spread," a letter to Mark Zuckerberg said.
-                </div>
-              </article>
-            </div>
-            <div class="culture-stories">
-              <div class="col-title">MY TURN</div>
-              <div class="culture-items d-sm-flex">
-                <div class="item">
-                  <div class="img">
-                    <picture>
-                      <a href="#">
-                        <img
-                          src="https://d.newsweek.com/en/full/1641776/proposal-dating-rotational-dating-marriage-relationship.webp?w=397&h=397&f=1d4024255ed16ccb93b1a5af377c923a"
-                          alt="ring">
-                      </a>
-                    </picture>
-                  </div>
-                  <div class="info">
-                    <a href="#">
-                      'I Wouldn't Be Exclusive Until I Was Proposed To. This Is Our Marriage'
-                    </a>
-                  </div>
-                </div>
+      <div class="decoration">VS</div>
 
-                <div class="item">
-                  <div class="img">
-                    <picture>
-                      <a href="#">
-                        <img
-                          src="https://d.newsweek.com/en/full/1640359/pregnancy-surrogate-black-women-surrogacy.webp?w=397&h=397&f=619e18f4ce3f03a880676e8b95a97e5e"
-                          alt="pregnant">
-                      </a>
-                    </picture>
-                  </div>
-                  <div class="info">
-                    <a href="#">
-                      'I Have Been a Surrogate 3 Times, This Is What It's Like'
-                    </a>
-                  </div>
-                </div>
+      <div class="player2">
+        <div class="img rounded-circle">
+          <a href="#">
+            <picture>
+              <img
+                src="https://d.newsweek.com/en/full/1523500/bridget-kelly.webp?w=150&h=150&f=b8865c559bb1db754f728fb108343548"
+                alt="Bridget">
+            </picture>
+          </a>
+        </div>
+        <div class="title">
+          <a href="#">Replacing RBG with a Woman like Barrett Is Beyond Tokenism. It's an Affront</a>
+        </div>
+        <div class="by-who">
+          <span>BY</span> BRIDGET KELLY
+        </div>
+      </div>
+    </div>
 
-                <div class="item">
-                  <div class="img">
-                    <picture>
-                      <a href="#">
-                        <img
-                          src="https://d.newsweek.com/en/full/1641725/alligator-attack-alligator-florida.webp?w=397&h=397&f=97795548143a436e306e6a623c46bf13"
-                          alt="alligator">
-                      </a>
-                    </picture>
-                  </div>
-                  <div class="info">
-                    <a href="#">
-                      'I Was Attacked By an 8ft Alligator in Florida'
-                    </a>
-                  </div>
-                </div>
-              </div>
+    <div class="opinion-cont">
+      <ul>
 
-              <div class="col-title">CULTURE & TRAVEL</div>
-              <div class="culture-items d-sm-flex">
-                <div class="item">
-                  <div class="category">
-                    <div>
-                      <a href="#">
-                        EMMYS
-                      </a>
-                    </div>
-                  </div>
-                  <div class="img">
-                    <picture>
-                      <a href="#">
-                        <img
-                          src="https://d.newsweek.com/en/full/1640554/zendaya.webp?w=397&h=397&f=8e5f8ea8c3c7d315e48c42d9d4ae7f63"
-                          alt="actor">
-                      </a>
-                    </picture>
-                  </div>
-                  <div class="info">
-                    <a href="#">
-                      50 Black Actors Who Made Entertainment History
-                    </a>
-                  </div>
-                </div>
-
-                <div class="item">
-                  <div class="category">
-                    <div>
-                      <a href="#">
-                        TRAVEL
-                      </a>
-                    </div>
-                  </div>
-                  <div class="img">
-                    <picture>
-                      <a href="#">
-                        <img
-                          src="https://d.newsweek.com/en/full/1639341/long-way-hero-2.webp?w=397&h=397&f=d4fac35eb99e067daa6070b184b9b606"
-                          alt="moto">
-                      </a>
-                    </picture>
-                  </div>
-                  <div class="info">
-                    <a href="#">
-                      Choose Electric: Ewan McGregor Rides Into the Future in 'Long Way Up'
-                    </a>
-                  </div>
-                </div>
-
-                <div class="item">
-                  <div class="category">
-                    <div>
-                      <a href="#">
-                        TRAVEL
-                      </a>
-                    </div>
-                  </div>
-                  <div class="img">
-                    <picture>
-                      <a href="#">
-                        <img
-                          src="https://d.newsweek.com/en/full/1635019/san-marino.webp?w=397&h=397&f=abca48a2f88128451a6b8ca8682b20ef"
-                          alt="castle">
-                      </a>
-                    </picture>
-                  </div>
-                  <div class="info">
-                    <a href="#">
-                      The Countries With the Least Amount of Travel Buzz, According to Google
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <!--More Stories-->
-            <div class="more-stories">
-              <div class="col-title">
-                MORE STORIES
-              </div>
-
-              <article>
-                <div class="img">
-                  <picture>
-                    <a href="#">
-                      <img
-                        src="https://d.newsweek.com/en/full/1643280/larry-kudlow-wh-cnbc-squawk.webp?w=95&h=95&f=e516b89de7c677ffc5e723b5c4c66450"
-                        alt="larry">
-                    </a>
-                  </picture>
-                </div>
-                <h4>Next Stimulus Package 'Can't Have More' Unemployment Benefits: Larry Kudlow</h4>
-                <div class="summary">White House economic adviser Larry Kudlow says he agrees that another large
-                  pandemic stimulus relief bill should be pumped into the economy, but Democrats' nearly $3 trillion
-                  proposals are bloated and still include unnecessary unemployment benefits.</div>
-              </article>
-
-              <article>
-                <div class="img">
-                  <picture>
-                    <a href="#">
-                      <img
-                        src="https://d.newsweek.com/en/full/1643280/larry-kudlow-wh-cnbc-squawk.webp?w=95&h=95&f=e516b89de7c677ffc5e723b5c4c66450"
-                        alt="larry">
-                    </a>
-                  </picture>
-                </div>
-                <h4>Next Stimulus Package 'Can't Have More' Unemployment Benefits: Larry Kudlow</h4>
-                <div class="summary">White House economic adviser Larry Kudlow says he agrees that another large
-                  pandemic stimulus relief bill should be pumped into the economy, but Democrats' nearly $3 trillion
-                  proposals are bloated and still include unnecessary unemployment benefits.</div>
-              </article>
-
-              <article>
-                <div class="img">
-                  <picture>
-                    <a href="#">
-                      <img
-                        src="https://d.newsweek.com/en/full/1643280/larry-kudlow-wh-cnbc-squawk.webp?w=95&h=95&f=e516b89de7c677ffc5e723b5c4c66450"
-                        alt="larry">
-                    </a>
-                  </picture>
-                </div>
-                <h4>Next Stimulus Package 'Can't Have More' Unemployment Benefits: Larry Kudlow</h4>
-                <div class="summary">White House economic adviser Larry Kudlow says he agrees that another large
-                  pandemic stimulus relief bill should be pumped into the economy, but Democrats' nearly $3 trillion
-                  proposals are bloated and still include unnecessary unemployment benefits.</div>
-              </article>
-
-              <article>
-                <div class="img">
-                  <picture>
-                    <a href="#">
-                      <img
-                        src="https://d.newsweek.com/en/full/1643280/larry-kudlow-wh-cnbc-squawk.webp?w=95&h=95&f=e516b89de7c677ffc5e723b5c4c66450"
-                        alt="larry">
-                    </a>
-                  </picture>
-                </div>
-                <h4>Next Stimulus Package 'Can't Have More' Unemployment Benefits: Larry Kudlow</h4>
-                <div class="summary">White House economic adviser Larry Kudlow says he agrees that another large
-                  pandemic stimulus relief bill should be pumped into the economy, but Democrats' nearly $3 trillion
-                  proposals are bloated and still include unnecessary unemployment benefits.</div>
-              </article>
-
-              <article>
-                <div class="img">
-                  <picture>
-                    <a href="#">
-                      <img
-                        src="https://d.newsweek.com/en/full/1643280/larry-kudlow-wh-cnbc-squawk.webp?w=95&h=95&f=e516b89de7c677ffc5e723b5c4c66450"
-                        alt="larry">
-                    </a>
-                  </picture>
-                </div>
-                <h4>Next Stimulus Package 'Can't Have More' Unemployment Benefits: Larry Kudlow</h4>
-                <div class="summary">White House economic adviser Larry Kudlow says he agrees that another large
-                  pandemic stimulus relief bill should be pumped into the economy, but Democrats' nearly $3 trillion
-                  proposals are bloated and still include unnecessary unemployment benefits.</div>
-              </article>
-
-              <article>
-                <div class="img">
-                  <picture>
-                    <a href="#">
-                      <img
-                        src="https://d.newsweek.com/en/full/1643280/larry-kudlow-wh-cnbc-squawk.webp?w=95&h=95&f=e516b89de7c677ffc5e723b5c4c66450"
-                        alt="larry">
-                    </a>
-                  </picture>
-                </div>
-                <h4>Next Stimulus Package 'Can't Have More' Unemployment Benefits: Larry Kudlow</h4>
-                <div class="summary">White House economic adviser Larry Kudlow says he agrees that another large
-                  pandemic stimulus relief bill should be pumped into the economy, but Democrats' nearly $3 trillion
-                  proposals are bloated and still include unnecessary unemployment benefits.</div>
-              </article>
-
-              <article>
-                <div class="img">
-                  <picture>
-                    <a href="#">
-                      <img
-                        src="https://d.newsweek.com/en/full/1643280/larry-kudlow-wh-cnbc-squawk.webp?w=95&h=95&f=e516b89de7c677ffc5e723b5c4c66450"
-                        alt="larry">
-                    </a>
-                  </picture>
-                </div>
-                <h4>Next Stimulus Package 'Can't Have More' Unemployment Benefits: Larry Kudlow</h4>
-                <div class="summary">White House economic adviser Larry Kudlow says he agrees that another large
-                  pandemic stimulus relief bill should be pumped into the economy, but Democrats' nearly $3 trillion
-                  proposals are bloated and still include unnecessary unemployment benefits.</div>
-              </article>
-
-              <article>
-                <div class="img">
-                  <picture>
-                    <a href="#">
-                      <img
-                        src="https://d.newsweek.com/en/full/1643280/larry-kudlow-wh-cnbc-squawk.webp?w=95&h=95&f=e516b89de7c677ffc5e723b5c4c66450"
-                        alt="larry">
-                    </a>
-                  </picture>
-                </div>
-                <h4>Next Stimulus Package 'Can't Have More' Unemployment Benefits: Larry Kudlow</h4>
-                <div class="summary">White House economic adviser Larry Kudlow says he agrees that another large
-                  pandemic stimulus relief bill should be pumped into the economy, but Democrats' nearly $3 trillion
-                  proposals are bloated and still include unnecessary unemployment benefits.</div>
-              </article>
-
-              <article>
-                <div class="img">
-                  <picture>
-                    <a href="#">
-                      <img
-                        src="https://d.newsweek.com/en/full/1643280/larry-kudlow-wh-cnbc-squawk.webp?w=95&h=95&f=e516b89de7c677ffc5e723b5c4c66450"
-                        alt="larry">
-                    </a>
-                  </picture>
-                </div>
-                <h4>Next Stimulus Package 'Can't Have More' Unemployment Benefits: Larry Kudlow</h4>
-                <div class="summary">White House economic adviser Larry Kudlow says he agrees that another large
-                  pandemic stimulus relief bill should be pumped into the economy, but Democrats' nearly $3 trillion
-                  proposals are bloated and still include unnecessary unemployment benefits.</div>
-              </article>
-
-              <article>
-                <div class="img">
-                  <picture>
-                    <a href="#">
-                      <img
-                        src="https://d.newsweek.com/en/full/1643280/larry-kudlow-wh-cnbc-squawk.webp?w=95&h=95&f=e516b89de7c677ffc5e723b5c4c66450"
-                        alt="larry">
-                    </a>
-                  </picture>
-                </div>
-                <h4>Next Stimulus Package 'Can't Have More' Unemployment Benefits: Larry Kudlow</h4>
-                <div class="summary">White House economic adviser Larry Kudlow says he agrees that another large
-                  pandemic stimulus relief bill should be pumped into the economy, but Democrats' nearly $3 trillion
-                  proposals are bloated and still include unnecessary unemployment benefits.</div>
-              </article>
-
-              <article>
-                <div class="img">
-                  <picture>
-                    <a href="#">
-                      <img
-                        src="https://d.newsweek.com/en/full/1643280/larry-kudlow-wh-cnbc-squawk.webp?w=95&h=95&f=e516b89de7c677ffc5e723b5c4c66450"
-                        alt="larry">
-                    </a>
-                  </picture>
-                </div>
-                <h4>Next Stimulus Package 'Can't Have More' Unemployment Benefits: Larry Kudlow</h4>
-                <div class="summary">White House economic adviser Larry Kudlow says he agrees that another large
-                  pandemic stimulus relief bill should be pumped into the economy, but Democrats' nearly $3 trillion
-                  proposals are bloated and still include unnecessary unemployment benefits.</div>
-              </article>
-
-              <article>
-                <div class="img">
-                  <picture>
-                    <a href="#">
-                      <img
-                        src="https://d.newsweek.com/en/full/1643280/larry-kudlow-wh-cnbc-squawk.webp?w=95&h=95&f=e516b89de7c677ffc5e723b5c4c66450"
-                        alt="larry">
-                    </a>
-                  </picture>
-                </div>
-                <h4>Next Stimulus Package 'Can't Have More' Unemployment Benefits: Larry Kudlow</h4>
-                <div class="summary">White House economic adviser Larry Kudlow says he agrees that another large
-                  pandemic stimulus relief bill should be pumped into the economy, but Democrats' nearly $3 trillion
-                  proposals are bloated and still include unnecessary unemployment benefits.</div>
-              </article>
-
-            </div>
+        <li>
+          <div class="img rounded-circle">
+            <a href="#">
+              <picture>
+                <img
+                  src="https://d.newsweek.com/en/full/97976/robert-reich.png?w=63&h=63&f=297351a03eaa549128026042394c9580"
+                  alt="Robert Reich">
+              </picture>
+            </a>
           </div>
-        </div>
-      </div>
-
-      <div class="col debate">
-        <div class="sticky-top">
-          <div class="the-debate">
-            <div class="debate-cont">
-              <div class="col-title">
-                <a href="#">THE DEBATE</a>
-              </div>
-              <div class="debate-item">
-                <div class="d-xs-flex align-items-center">
-                  <div class="img rounded-circle">
-                    <a href="#">
-                      <picture>
-                        <img
-                          src="https://d.newsweek.com/en/full/1641374/robert-p-george.webp?w=150&h=150&f=365b9cdc1ef783cc2559d38ccbf310b9"
-                          alt="Robert George">
-                      </picture>
-                    </a>
-                  </div>
-                  <div class="info">
-                    <div class="title">
-                      <a href="#">The Case for Amy Coney Barrett</a>
-                    </div>
-                    <div class="by-who">
-                      <span>by</span>
-                      Robert P. George
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="decoration rounded-circle">VS</div>
-
-              <div class="debate-item">
-                <div class="d-xs-flex align-items-center">
-                  <div class="img rounded-circle">
-                    <a href="#">
-                      <picture>
-                        <img
-                          src="https://d.newsweek.com/en/full/1523500/bridget-kelly.webp?w=150&h=150&f=b8865c559bb1db754f728fb108343548"
-                          alt="Bridget Kelly">
-                      </picture>
-                    </a>
-                  </div>
-                  <div class="info">
-                    <div class="title">
-                      <a href="#">Replacing RBG with a Woman like Barrett Is Beyond Tokenism. It's an Affront</a>
-                    </div>
-                    <div class="by-who">
-                      <span>by</span>
-                      Bridget Kelly
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="opinion">
-              <div class="col-title">OPINION</div>
-              <ul>
-                <li>
-                  <div class="img rounded-circle">
-                    <a href="#">
-                      <picture>
-                        <img
-                          src="https://d.newsweek.com/en/full/97976/robert-reich.webp?w=63&h=63&f=297351a03eaa549128026042394c9580"
-                          alt="robert-reich">
-                      </picture>
-                    </a>
-                  </div>
-                  <div class="info">
-                    <a href="#">A Post-Election Civil War Is Unlikely. But Trump Nation Has Already Seceded</a>
-                    <div class="by-who">By
-                      Robert Reich</div>
-                  </div>
-                </li>
-                <li>
-                  <div class="img rounded-circle">
-                    <a href="#">
-                      <picture>
-                        <img
-                          src="https://d.newsweek.com/en/full/97976/robert-reich.webp?w=63&h=63&f=297351a03eaa549128026042394c9580"
-                          alt="robert-reich">
-                      </picture>
-                    </a>
-                  </div>
-                  <div class="info">
-                    <a href="#">A Post-Election Civil War Is Unlikely. But Trump Nation Has Already Seceded</a>
-                    <div class="by-who">By
-                      Robert Reich</div>
-                  </div>
-                </li>
-                <li>
-                  <div class="img rounded-circle">
-                    <a href="#">
-                      <picture>
-                        <img
-                          src="https://d.newsweek.com/en/full/97976/robert-reich.webp?w=63&h=63&f=297351a03eaa549128026042394c9580"
-                          alt="robert-reich">
-                      </picture>
-                    </a>
-                  </div>
-                  <div class="info">
-                    <a href="#">A Post-Election Civil War Is Unlikely. But Trump Nation Has Already Seceded</a>
-                    <div class="by-who">By
-                      Robert Reich</div>
-                  </div>
-                </li>
-                <li>
-                  <div class="img rounded-circle">
-                    <a href="#">
-                      <picture>
-                        <img
-                          src="https://d.newsweek.com/en/full/97976/robert-reich.webp?w=63&h=63&f=297351a03eaa549128026042394c9580"
-                          alt="robert-reich">
-                      </picture>
-                    </a>
-                  </div>
-                  <div class="info">
-                    <a href="#">A Post-Election Civil War Is Unlikely. But Trump Nation Has Already Seceded</a>
-                    <div class="by-who">By
-                      Robert Reich</div>
-                  </div>
-                </li>
-                <li>
-                  <div class="img rounded-circle">
-                    <a href="#">
-                      <picture>
-                        <img
-                          src="https://d.newsweek.com/en/full/97976/robert-reich.webp?w=63&h=63&f=297351a03eaa549128026042394c9580"
-                          alt="robert-reich">
-                      </picture>
-                    </a>
-                  </div>
-                  <div class="info">
-                    <a href="#">A Post-Election Civil War Is Unlikely. But Trump Nation Has Already Seceded</a>
-                    <div class="by-who">By
-                      Robert Reich</div>
-                  </div>
-                </li>
-                <li>
-                  <div class="img rounded-circle">
-                    <a href="#">
-                      <picture>
-                        <img
-                          src="https://d.newsweek.com/en/full/97976/robert-reich.webp?w=63&h=63&f=297351a03eaa549128026042394c9580"
-                          alt="robert-reich">
-                      </picture>
-                    </a>
-                  </div>
-                  <div class="info">
-                    <a href="#">A Post-Election Civil War Is Unlikely. But Trump Nation Has Already Seceded</a>
-                    <div class="by-who">By
-                      Robert Reich</div>
-                  </div>
-                </li>
-                <li>
-                  <div class="img rounded-circle">
-                    <a href="#">
-                      <picture>
-                        <img
-                          src="https://d.newsweek.com/en/full/97976/robert-reich.webp?w=63&h=63&f=297351a03eaa549128026042394c9580"
-                          alt="robert-reich">
-                      </picture>
-                    </a>
-                  </div>
-                  <div class="info">
-                    <a href="#">A Post-Election Civil War Is Unlikely. But Trump Nation Has Already Seceded</a>
-                    <div class="by-who">By
-                      Robert Reich</div>
-                  </div>
-                </li>
-                <li>
-                  <div class="img rounded-circle">
-                    <a href="#">
-                      <picture>
-                        <img
-                          src="https://d.newsweek.com/en/full/97976/robert-reich.webp?w=63&h=63&f=297351a03eaa549128026042394c9580"
-                          alt="robert-reich">
-                      </picture>
-                    </a>
-                  </div>
-                  <div class="info">
-                    <a href="#">A Post-Election Civil War Is Unlikely. But Trump Nation Has Already Seceded</a>
-                    <div class="by-who">By
-                      Robert Reich</div>
-                  </div>
-                </li>
-              </ul>
-            </div>
-            <div class="newsletter">
-            </div>
+          <div class="info">
+            <a href="#">A Post-Election Civil War Is Unlikely. But Trump Nation Has Already Seceded</a>
+            <div class="by-who">BY ROBERT REICH</div>
           </div>
-        </div>
-      </div>
+        </li>
 
+        <li>
+          <div class="img rounded-circle">
+            <a href="#">
+              <picture>
+                <img
+                  src="https://d.newsweek.com/en/full/1506965/charlie-kirk.png?w=63&h=63&f=dadcbab6cd325ee70d1bfe4df5a01410"
+                  alt="Charlie Kirk">
+              </picture>
+            </a>
+          </div>
+          <div class="info">
+            <a href="#">How Trump Can Win the First Debate</a>
+            <div class="by-who">BY CHARLIE KIRK</div>
+          </div>
+        </li>
+
+        <li>
+          <div class="img rounded-circle">
+            <a href="#">
+              <picture>
+                <img
+                  src="https://d.newsweek.com/en/full/89510/marc-schulman.png?w=63&h=63&f=0544ec46ee21c238aad07cc8eaa35569"
+                  alt="Marc Schulman">
+              </picture>
+            </a>
+          </div>
+          <div class="info">
+            <a href="#">How Did Israel Fail So Quickly, So Terribly on Coronavirus?</a>
+            <div class="by-who">BY MARC SCHULMAN</div>
+          </div>
+        </li>
+
+        <li>
+          <div class="img rounded-circle">
+            <a href="#">
+              <picture>
+                <img
+                  src="https://d.newsweek.com/en/full/1642906/scheindlin-clarke.png?w=63&h=63&f=9214da1d40506b86f1c0a24e37a0e563"
+                  alt="Shira and Kristen">
+              </picture>
+            </a>
+          </div>
+          <div class="info">
+            <a href="#">Even Lincoln and Eisenhower Would Disapprove of Trump's SCOTUS Rush</a>
+            <div class="by-who">BY SHIRA A. SCHEINLDIN and KRISTEN CLARKE</div>
+          </div>
+        </li>
+
+        <li>
+          <div class="img rounded-circle">
+            <a href="#">
+              <picture>
+                <img
+                  src="https://d.newsweek.com/en/full/1642291/mary-eberstadt.png?w=63&h=63&f=8884c46ce7981df951ae693acc0482a3"
+                  alt="Mary Eberstadt">
+              </picture>
+            </a>
+          </div>
+          <div class="info">
+            <a href="#">Why is There a Patriotism Gap?</a>
+            <div class="by-who">BY MARY EBERSTADT</div>
+          </div>
+        </li>
+
+        <li>
+          <div class="img rounded-circle">
+            <a href="#">
+              <picture>
+                <img
+                  src="https://d.newsweek.com/en/full/1642448/serena-sigillito.png?w=63&h=63&f=7e03ce787fa4bc826c298d8a20cc65fc"
+                  alt="Serena Sigillito">
+              </picture>
+            </a>
+          </div>
+          <div class="info">
+            <a href="#">Amy Coney Barrett and the New Feminism of Interdependence</a>
+            <div class="by-who">BY SERENA SIGILLITO</div>
+          </div>
+        </li>
+
+        <li>
+          <div class="img rounded-circle">
+            <a href="#">
+              <picture>
+                <img
+                  src="https://d.newsweek.com/en/full/1594385/marianne-williamson.png?w=63&h=63&f=e5673fcb9ddab3bb801cfc7a5c103a2f"
+                  alt="Marianne Williamson">
+              </picture>
+            </a>
+          </div>
+          <div class="info">
+            <a href="#">America's Cold Civil War </a>
+            <div class="by-who">BY MARIANNE WILLIAMSON</div>
+          </div>
+        </li>
+
+        <li>
+          <div class="img rounded-circle">
+            <a href="#">
+              <picture>
+                <img
+                  src="https://d.newsweek.com/en/full/1641958/emilie-kao-joel-griffith.png?w=63&h=63&f=c2acebda32a455c2200bd1cba9709b1b"
+                  alt="Emilie and Joel">
+              </picture>
+            </a>
+          </div>
+          <div class="info">
+            <a href="#">What the United Nations Gets Wrong About Fighting Anti-Semitism</a>
+            <div class="by-who">BY EMILIE KAO AND JOEL GRIFFITH/div>
+          </div>
+        </li>
+
+      </ul>
     </div>
   </main>
 </body>
