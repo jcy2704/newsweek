@@ -1,0 +1,21 @@
+/*Header Navbar*/
+.menu {
+  position: absolute;
+  bottom: 12px;
+}
+
+.prof-logo {
+  display: none;
+}
+
+.lgn {
+  display: block;
+}
+
+.sub-btn {
+  font-size: 18px;
+  line-height: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
