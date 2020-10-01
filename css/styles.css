@@ -120,10 +120,6 @@ header {
   fill: rgba(255, 255, 255, .55);
 }
 
-.top-wrapper {
-  flex-direction: column;
-}
-
 /*MAIN TOP STORY*/
 .main {
   background-color: white;
