@@ -245,6 +245,11 @@ header {
   padding-bottom: 12px;
 }
 
+.player2 .img img {
+  margin-right: 0;
+  margin-left: 15px;
+}
+
 /*OPINION*/
 .opinion-cont li {
   border-top: 1px solid #ddd;
